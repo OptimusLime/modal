@@ -2,20 +2,20 @@
   "name": "modal",
   "repo": "segmentio/modal",
   "license": "MIT",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A simple modal UI component.",
   "keywords": ["modal", "ui", "overlay"],
   "dependencies": {
-    "component/domify": "*",
-    "component/emitter": "*",
-    "optimuslime/overlay": "0.2.2",
+    "component/domify": "master",
+    "component/emitter": "master",
+    "optimuslime/overlay": "master",
     "segmentio/showable": "0.1.1",
-    "segmentio/on-escape": "*",
+    "segmentio/on-escape": "master",
     "ianstormtaylor/classes": "0.1.0"
   },
   "development": {
-    "component/assert": "*",
-    "segmentio/on-enter": "*"
+    "component/assert": "master",
+    "segmentio/on-enter": "master"
   },
   "scripts": ["lib/index.js"],
   "styles": ["lib/index.css"],
